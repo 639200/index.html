@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Photography Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="vs.css">
+</head>
+<body>
+	<header>
+		<h1>My Photography Portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="intro">
+			<h2>Welcome to my portfolio</h2>
+			<p>Here you will find some of my best photographs, from landscapes to portraits. Browse through my gallery and let me know what you think!</p>
+			<a href="#" class="cta-button">View Gallery</a>
+		</section>
+		<section class="gallery">
+			<h2>Gallery</h2>
+			<div class="photo-grid">
+				<div class="photo">
+					<img src="photo1.jpg" alt="Photo 1">
+				</div>
+				<div class="photo">
+					<img src="photo2.jpg" alt="Photo 2">
+				</div>
+				<div class="photo">
+					<img src="photo3.jpg" alt="Photo 3">
+				</div>
+				<div class="photo">
+					<img src="photo4.jpg" alt="Photo 4">
+				</div>
+			</div>
+		</section>
+		<section class="contact">
+			<h2>Contact me</h2>
+			<form action="#" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Photography Portfolio</p>
+	</footer>
+</body>
+</html>
